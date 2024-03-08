@@ -1,0 +1,8 @@
+ByteRebels 08/03/24
+
+Nel codice proposto dalla traccia dell'esercitazione la squadra ha riscontrato diversi errori di natura logica e sintattica.
+
+
+Dal punto di vista logico nello switch nel main non e gestito il controllo case sensitive e sempre in questo switch manca il default case,mentre nella sezione "dividi" è assente il controllo della divisione dello zero.
+Per quanto riguarda gli errori sintattici è stato riscontrato un problema nella gestione degli spazi nell'acquisizione della stringa in "ins_srring()", a riga 14 va aggiunto uno spazio nel segnaposto e va cambiato %d con %c in quanto poi verrà passato un carattere.
+A riga 47 e 48 le variabili richieste sono "%hd" mentre a riga 64 il comando corretto per la divisione è / e non %.
